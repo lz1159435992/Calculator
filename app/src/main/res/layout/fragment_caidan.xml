@@ -1,0 +1,144 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+   <GridLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:columnCount="4"
+       android:rowCount="4">
+       <Button
+           android:id="@+id/bt_sin"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text="sin"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_cos"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text="cos"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_tan"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text="tan"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_pi"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text="π"
+           android:autoSizeTextType="uniform"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_arcsin"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text="arcsin"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_arccos"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text="arccos"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_arctan"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text="arctan"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_e"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text="e"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_ln"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text="ln"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_left"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text="("
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_right"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text=")"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_tentoeight"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text="10->8"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_lg"
+           android:layout_width="51dp"
+           android:layout_height="60dp"
+           android:text="lg"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_xx"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text="^"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_kaifang"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text="√"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/bt_tentotwo"
+           android:layout_width="50dp"
+           android:layout_height="60dp"
+           android:text="10->2"
+           android:textAllCaps="false"
+           android:gravity="center_horizontal"/>
+   </GridLayout>
+
+</FrameLayout>
